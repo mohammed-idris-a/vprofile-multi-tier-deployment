@@ -55,33 +55,6 @@ The intended service configuration sequence is:
 
 The infrastructure is first provisioned using Vagrant. Once the virtual machines are available, the services are configured and validated individually before testing the application through the web server.
 
-## Compatibility Adjustments
-
-### Vagrant Base Box Update
-
-The original base box reference supplied with the course material caused compatibility issues during initial provisioning.
-
-The following errors were encountered:
-
-**Issue 1 — Box checksum mismatch**
-
-```text
-Downloading successful, but checksum doesn't match.
-```
-
-**Issue 2 — BaseOS repository metadata retrieval failure**
-
-```text
-Error: Failed to download metadata for repo 'baseos':
-Cannot download repomd.xml:
-Cannot download repodata/repomd.xml:
-All mirrors were tried
-```
-
-To address the outdated base-box configuration, the box reference in the Vagrantfile was updated.
-
-The selected box name, version, configuration changes, and verification results are documented as part of the implementation.
-
 ## Project Documentation
 
 | Document | Description |
