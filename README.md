@@ -16,7 +16,7 @@ The initial implementation follows a guided Udemy course, with environment compa
 
 | Component | Technology | Responsibility |
 |---|---|---|
-| Web server / Load balancer | Nginx | Receives HTTP requests and routes traffic to the application |
+| Web server / Reverse proxy | Nginx | Receives HTTP requests and routes traffic to the application |
 | Application server | Apache Tomcat | Hosts the Java web application |
 | Database | MariaDB | Stores application data |
 | Caching | Memcached | Caches frequently accessed data |
