@@ -85,6 +85,12 @@ The original application source code and instructor-provided configuration files
 
 The original course material is distinguished from my own configuration changes,  infrastructure provisioning, implementation work, troubleshooting, verification, and independently developed improvements.
 
+## Troubleshooting
+
+Deployment issues encountered during provisioning and configuration, along with their investigation and resolutions, are documented here:
+
+[View Troubleshooting Documentation](docs/TROUBLESHOOTING.md)
+
 ## Project Status
 
 **In Progress** — Local infrastructure provisioning and service deployment.
