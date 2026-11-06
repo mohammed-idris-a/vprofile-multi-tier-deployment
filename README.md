@@ -59,11 +59,9 @@ The infrastructure is first provisioned using Vagrant. Once the virtual machines
 
 | Document | Description |
 |---|---|
-| Architecture | Application components and service interactions |
-| Lab Environment | Host machine, virtualization platform and VM configuration |
-| Deployment | Provisioning and service configuration steps |
-| Verification | Service health, connectivity and application testing |
-| Troubleshooting | Errors, root causes, resolutions and lessons learned |
+| [Architecture](docs/ARCHITECTURE.md) | Application and infrastructure architecture |
+| [Deployment](docs/DEPLOYMENT.md) | Step-by-step deployment procedure |
+| [Troubleshooting](docs/TROUBLESHOOTING.md) | Issues, investigation and resolutions |
 
 ## Learning Objectives
 
@@ -75,6 +73,12 @@ The infrastructure is first provisioned using Vagrant. Once the virtual machines
 - Troubleshoot infrastructure and service-level failures.
 - Improve the reproducibility and reliability of the local environment.
 
+## Troubleshooting
+
+Deployment issues encountered during provisioning and configuration, along with their investigation and resolutions, are documented here:
+
+[View Troubleshooting Documentation](docs/TROUBLESHOOTING.md)
+
 ## Source Attribution
 
 This project follows the VProfile course by hkhcoder.
@@ -85,18 +89,11 @@ The original application source code and instructor-provided configuration files
 
 The original course material is distinguished from my own configuration changes,  infrastructure provisioning, implementation work, troubleshooting, verification, and independently developed improvements.
 
-## Troubleshooting
-
-Deployment issues encountered during provisioning and configuration, along with their investigation and resolutions, are documented here:
-
-[View Troubleshooting Documentation](docs/TROUBLESHOOTING.md)
-
 ## Project Status
 
-**In Progress** — Local infrastructure provisioning and service deployment.
+**Core Deployment Completed and Verified**
 
-The project will be updated as implementation, testing, and troubleshooting milestones are completed.
+Successfully provisioned the five-VM environment, configured the required infrastructure services, built and deployed the Java application to Tomcat, and accessed the application through Nginx.
 
-## Author
+Deployment procedures and troubleshooting experiences are documented in the project documentation.
 
-Mohammed Idris
